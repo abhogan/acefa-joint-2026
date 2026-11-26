@@ -1,0 +1,27 @@
+# Confidential UNSW and UoM transmission-model outputs (ALL formats)
+data_private/**
+!data_private/.gitkeep
+
+# Derived simulation-level datasets and locally generated results
+outputs/**
+!outputs/.gitkeep
+cache/
+psa_cache/
+data/derived/
+
+# Keep raw simulation formats and local R sessions out of Git history
+*.dta
+*.RData
+*.rda
+*.rds
+.Rhistory
+.Rproj.user/
+.Renviron
+*.zip
+
+# Do not publish a third-party life table file until its distribution rights are confirmed.
+inputs/Australian Life Table.xlsx
+
+# OS / editor files
+.DS_Store
+Thumbs.db
