@@ -62,3 +62,13 @@ For the 10-age-group (preschool-inclusive) model, each outcome array has shape:
 The policy order is `laiv_2_4`, `laiv_2_12`, `laiv_2_18`. 
 
 The scenario order is `status_quo`, `mid`.
+
+## Model calibration
+
+This model was calibrated to data by Isaac Stopard.
+
+The calibration code is available at: https://github.com/TiffanyNL/unsw_influenza/tree/main/calibration
+
+The original calibration code by Isaac Stopard is available at: https://github.com/IsaacStopard/UNSW_ACEFA
+
+The calibrated parameter sets are used as inputs in the different LAIV scenarios analysis.
